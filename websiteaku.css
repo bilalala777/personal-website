@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background:#ffbfd2;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'pinyonscript';
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+section{
+    padding: 20px;
+    background: white;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background: #ffb6d2;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    
+    header h1 {
+        font-size: 24px; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+
+    section {
+        padding: 15px; /* Padding lebih kecil */
+    }
+}
